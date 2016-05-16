@@ -10,7 +10,7 @@ $ npm install --save is-valid-bem-filepath
 ## Usage
 
 ```js
-var isValidBemFilepath = require('is-valid-bem-filepath');
+const isValidBemFilepath = require('is-valid-bem-filepath');
 
 isValidBemFilepath('Rainbow');
 ```

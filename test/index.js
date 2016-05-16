@@ -1,10 +1,18 @@
 'use strict';
 
-var assert = require('assert');
-var isValidBemFilepath = require('../lib');
+const expect             = require('chai').expect;
+const isValidBemFilepath = require('../lib');
 
 describe('is-valid-bem-filepath', function () {
-    it('should have unit test!', function () {
-        assert(false, 'we expected this package author to add actual unit tests.');
+    it('should pass a valid filepath', function () {
+        let filepath = '/Users/jbenner/bem-lab/sass/blocks/blocky/blocky.scss';
+
+        expect(isValidBemFilepath(filepath)).to.equal(true);
     });
+
+    it('should fail an invalid filepath', function () {
+        let filepath = '/Users/jbenner/bem-lab/sass/blocks/blocksy/blocky.scss';
+
+        expect(isValidBemFilepath(filepath)).to.equal(false);
+    })
 });
