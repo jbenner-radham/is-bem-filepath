@@ -8,6 +8,9 @@
     "email": "james.benner@gmail.com",
     "url": "www.jamesbenner.com"
   },
+  "engines": {
+    "node" : ">=6.2.0"
+  },
   "files": [
     "lib"
   ],
