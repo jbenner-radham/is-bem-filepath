@@ -17,7 +17,7 @@ Usage
 ```js
 const isBemFilepath = require('is-bem-filepath');
 
-isBemFilepath('Rainbow');
+isBemFilepath('blocks/blocky/__elementy/blocky__elementy.scss'); // True
 ```
 
 Testing

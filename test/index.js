@@ -5,7 +5,7 @@ const isBemFilepath = require('../lib');
 
 describe('is-bem-filepath', function () {
     it('should pass a valid filepath', function () {
-        let filepath = '/Users/jbenner/bem-lab/sass/blocks/blocky/blocky.scss';
+        let filepath = '/Users/jbenner/bem-lab/sass/blocks/blocky/__elementy/blocky__elementy.scss';
 
         expect(isBemFilepath(filepath)).to.equal(true);
     });
