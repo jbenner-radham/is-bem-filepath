@@ -1,23 +1,34 @@
-# is-valid-bem-filepath [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
-> Is valid BEM filepath?
+is-valid-bem-filepath
+=====================
+[![npm version][npm-image]][npm-url]
+[![Build Status][travis-image]][travis-url]
+[![Dependency Status][daviddm-image]][daviddm-url]
 
-## Installation
+Is valid BEM filepath?
 
+Installation
+------------
 ```sh
 $ npm install --save is-valid-bem-filepath
 ```
 
-## Usage
-
+Usage
+-----
 ```js
 const isValidBemFilepath = require('is-valid-bem-filepath');
 
 isValidBemFilepath('Rainbow');
 ```
-## License
 
-MIT © [James Benner](www.jamesbenner.com)
+Testing
+-------
+```sh
+$ npm test
+```
 
+License
+-------
+The MIT License (Expat). See the [license file](LICENSE) for details.
 
 [npm-image]: https://badge.fury.io/js/is-valid-bem-filepath.svg
 [npm-url]: https://npmjs.org/package/is-valid-bem-filepath
