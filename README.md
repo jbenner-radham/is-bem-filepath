@@ -1,4 +1,4 @@
-is-valid-bem-filepath
+is-bem-filepath
 =====================
 [![npm version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
@@ -9,15 +9,15 @@ Is valid BEM filepath?
 Installation
 ------------
 ```sh
-$ npm install --save is-valid-bem-filepath
+$ npm install --save is-bem-filepath
 ```
 
 Usage
 -----
 ```js
-const isValidBemFilepath = require('is-valid-bem-filepath');
+const isBemFilepath = require('is-bem-filepath');
 
-isValidBemFilepath('Rainbow');
+isBemFilepath('Rainbow');
 ```
 
 Testing
@@ -30,9 +30,9 @@ License
 -------
 The MIT License (Expat). See the [license file](LICENSE) for details.
 
-[npm-image]: https://badge.fury.io/js/is-valid-bem-filepath.svg
-[npm-url]: https://npmjs.org/package/is-valid-bem-filepath
-[travis-image]: https://travis-ci.org/jbenner-radham/is-valid-bem-filepath.svg?branch=master
-[travis-url]: https://travis-ci.org/jbenner-radham/is-valid-bem-filepath
-[daviddm-image]: https://david-dm.org/jbenner-radham/is-valid-bem-filepath.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/jbenner-radham/is-valid-bem-filepath
+[npm-image]: https://badge.fury.io/js/is-bem-filepath.svg
+[npm-url]: https://npmjs.org/package/is-bem-filepath
+[travis-image]: https://travis-ci.org/jbenner-radham/is-bem-filepath.svg?branch=master
+[travis-url]: https://travis-ci.org/jbenner-radham/is-bem-filepath
+[daviddm-image]: https://david-dm.org/jbenner-radham/is-bem-filepath.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/jbenner-radham/is-bem-filepath

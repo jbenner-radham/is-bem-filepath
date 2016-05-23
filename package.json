@@ -1,5 +1,5 @@
 {
-  "name": "is-valid-bem-filepath",
+  "name": "is-bem-filepath",
   "version": "0.0.0",
   "description": "Is valid BEM filepath?",
   "homepage": "",
@@ -31,7 +31,7 @@
     "gulp-nsp": "^2.1.0",
     "gulp-plumber": "^1.0.0"
   },
-  "repository": "jbenner-radham/is-valid-bem-filepath",
+  "repository": "jbenner-radham/is-bem-filepath",
   "scripts": {
     "prepublish": "gulp prepublish",
     "test": "gulp"
