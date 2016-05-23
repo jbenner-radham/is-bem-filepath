@@ -9,7 +9,7 @@
     "url": "www.jamesbenner.com"
   },
   "engines": {
-    "node" : ">=6.2.0"
+    "node": ">=6.2.0"
   },
   "files": [
     "lib"
